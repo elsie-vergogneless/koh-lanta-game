@@ -1,0 +1,77 @@
+html {
+    background: url("images/background2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#playground {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    display: block;
+}
+
+.pole {
+    position: absolute;
+    height: 30%;
+    bottom: 10%;
+}
+
+.stickman {
+    position: absolute;
+    height: 30%;
+    bottom: 35%;
+}
+
+.left-position {
+    left: 20%;
+
+}
+
+.center-position {
+    left: 45%;
+
+}
+
+.right-position {
+    left: 70%;
+
+}
+
+.pole {
+    transform: translate(50%, 0)
+}
+
+
+#keyboard-arrows {
+    position:absolute;
+    bottom: 5%;
+    height:7%;
+    left: 5%;
+}
+
+#timer {
+    position:absolute;
+    bottom: 5%;
+    height:2%;
+    right: 5%;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: sans-serif;
+    -webkit-text-stroke: 2px black;
+    color:red;
+}
+
+#keyboard-key-left, #keyboard-key-right {
+    height: 100%;
+}
+
+
+.red-image {
+    filter: invert(14%) sepia(81%) saturate(500%) hue-rotate(3deg) brightness(112%) contrast(121%);
+}

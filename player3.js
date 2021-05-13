@@ -1,0 +1,11 @@
+let Parameters = {
+    X1: 1.0,
+    Y1: 0.24,
+    X2: 0.92,
+    Y2: 0.53,
+    RECOVERING_FACTOR: 1,
+    FAILING_FAST_FACTOR: 2,
+    BASE_DURATION: 5000,
+    MIN_DURATION: 500,
+    DECREASING_DURATION_FACTOR: 0.1,
+};
