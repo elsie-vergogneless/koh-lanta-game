@@ -12,7 +12,7 @@ let Parameters = {
     // Vitesse linéaire de chute (touche fléchée identique au sens de la chute)
     FAILING_FAST_FACTOR: 2,
 
-    // Durée de la chute initale
+    // Durée initale de la chute
     BASE_DURATION: 5000,
 
     // Durée minimale de la chute
